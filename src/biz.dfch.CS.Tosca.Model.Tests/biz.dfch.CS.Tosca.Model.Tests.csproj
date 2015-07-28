@@ -53,6 +53,12 @@
     <Compile Include="ModelTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\biz.dfch.CS.Tosca.Model\biz.dfch.CS.Tosca.Model.csproj">
+      <Project>{a99c1b7d-e83f-4d0c-8efb-a291d63d4296}</Project>
+      <Name>biz.dfch.CS.Tosca.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
