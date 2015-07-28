@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "biz.dfch.CS.Tosca.Model", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "biz.dfch.CS.Tosca.Model.Tests", "biz.dfch.CS.Tosca.Model.Tests\biz.dfch.CS.Tosca.Model.Tests.csproj", "{06EF613E-FB3B-49DD-945E-A96C39EA234F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "biz.dfch.CS.Tosca.Model.Generator", "biz.dfch.CS.Tosca.Model.Generator\biz.dfch.CS.Tosca.Model.Generator.csproj", "{19C14FBC-9EEA-43F2-825A-65FE651E306A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "biz.dfch.CS.Tosca.Model.Generator.Tests", "biz.dfch.CS.Tosca.Model.Generator.Tests\biz.dfch.CS.Tosca.Model.Generator.Tests.csproj", "{F0961524-0307-4D92-A9C6-BB62812F8C0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{06EF613E-FB3B-49DD-945E-A96C39EA234F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06EF613E-FB3B-49DD-945E-A96C39EA234F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06EF613E-FB3B-49DD-945E-A96C39EA234F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19C14FBC-9EEA-43F2-825A-65FE651E306A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19C14FBC-9EEA-43F2-825A-65FE651E306A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19C14FBC-9EEA-43F2-825A-65FE651E306A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19C14FBC-9EEA-43F2-825A-65FE651E306A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0961524-0307-4D92-A9C6-BB62812F8C0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0961524-0307-4D92-A9C6-BB62812F8C0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0961524-0307-4D92-A9C6-BB62812F8C0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0961524-0307-4D92-A9C6-BB62812F8C0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
