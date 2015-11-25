@@ -7,12 +7,6 @@ namespace biz.dfch.CS.Tosca.Model.Tests
     public class ModelTests
     {
         [TestMethod]
-        [Timeout(1000)]
-        public void SleepingThrowsTimeoutException()
-        {
-            System.Threading.Thread.Sleep(5000);
-        }
-        [TestMethod]
         [ExpectedException(typeof(DivideByZeroException))]
         public void DividingByZeroThrowsDivideByZeroException()
         {
